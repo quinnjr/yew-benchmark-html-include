@@ -1,0 +1,11 @@
+<>
+    <Subcomponent>
+        {
+            self.data.iter()
+                .map(|k,v| {
+                    html! { <li>{ format!("{} = {}", k, v)}</li>}
+                })
+                .collect::<Html>()
+        }
+    </Subcomponent>
+</>

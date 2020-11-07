@@ -1,0 +1,18 @@
+[package]
+name = "yew-benchmark-html-include"
+version = "0.1.0"
+authors = ["Joseph R. Quinn <423821+quinnjr@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+yew = "0.17.4"
+wasm-bindgen = "0.2.68"
+
+[dev-dependencies]
+criterion = "0.3.3"
+trunk = "0.7.4"
+
+[[bench]]
+name = "bench_html"
+harness = false
+

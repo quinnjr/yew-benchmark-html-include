@@ -1,0 +1,1 @@
+Testing repo for Yew and utilizing `include_str!` for template partials.
